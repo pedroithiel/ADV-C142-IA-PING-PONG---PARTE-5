@@ -1,0 +1,43 @@
+#titulo{
+    
+    margin-top: 0;
+}
+body {
+    background-position: center;
+    background-size: cover;
+}
+
+#rodape {
+    bottom: 0;
+    position: fixed;
+    background-color: purple;
+    color: white;
+    width: 100%;
+}
+
+.heading {
+    width: 100%;
+    text-align: left;
+}
+
+.instrucoes {
+    float: right;
+}
+
+canvas {
+    margin: 50px;
+    border-radius: 30px;
+    border: black solid;
+    animation-name: canva;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes canva {
+    from{
+        box-shadow: 10px 10px 45px purple;
+    }
+    
+    to{
+        box-shadow: 10px 10px 45px blue;    }
+}
